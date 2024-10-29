@@ -35,10 +35,13 @@ navbar {
 }
 
 .navbar {
-    background-color: green;
     text-align: center;
     padding: 3px;
     margin: 6px 3px;
+}
+
+.navbar > a {
+    color: #00e94e;
 }
 
 fancy {
@@ -52,11 +55,25 @@ fancy {
     align-items: center;
 }
 
-p > a {
+a {
     color:aqua;
     text-decoration: dotted underline;
 }
 
 a:hover {
     color: rgb(11, 197, 21)
+}
+
+datestamp {
+    color:rgb(173, 173, 173);
+    font-style:italic;
+    font-size: 0.8rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
 }
