@@ -1,23 +1,24 @@
 body {
-    background-color: rgb(29, 34, 63);
+    background-color: #1d223f;
     box-sizing: border-box;
 }
 
 * {
     font-family: 'Consolas', 'Courier New', Courier, monospace;
-    color: rgb(0, 233, 78);
+    color: #00e94e;
     font-weight: 500;
     box-sizing: border-box;
 }
 
 section {
     
-    background-color: rgb(48, 44, 102);
+    background-color: #302c66;
     border-radius: 1rem;
     padding: 1.5rem;
     box-shadow: 5px 5px 10px rgb(12, 95, 16) ;
     max-width: 800px;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 img {
